@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+    font-family: serif;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+header{
+    background-color: rgb(72, 111, 122);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid lightgray
+}
+nav{
+    background-color: rgb(94, 93, 93);
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.459);
+}
+nav > a{
+     text-decoration: none;
+     color: white;
+     font-weight: bolder;
+     margin-right:30px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: yellow;
+   
+}
+main{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+    
+}
+article{
+    background-color: rgb(131, 173, 199);
+    padding:5px;
+
+}  
+.sobrehtml{
+    text-align: justify;
+    text-indent: 10px;
+
+}
+.sobrecss{
+     text-align: justify;
+    text-indent: 10px;
+}
+.sobrejs{
+    text-align: justify;
+    text-indent: 10px;
+}
+article > aside{
+    background-color: rgb(153, 153, 153);
+    text-align:right;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin: 0px;
+}
+footer > p {
+    margin: 0px;
+}

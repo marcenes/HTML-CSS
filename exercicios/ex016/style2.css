@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    /*height: 100%;*/
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #8596F2, #578BF2); /*Utilizado para fazer o degradê,podendo ser da direita pra esquerda,da esquerda pra direita,de cima pra baixo ou debaixo pra cima,também pode ser usado com graus utilizando DEG como por exemplo (45deg) *sempre em minúsculo* */
+}
+
+main {
+    background-color: rgb(255, 255, 255); /* Utilizado para trocar a cor de fundo */
+    border-radius: 10px; /* Utilizado para arredondar as bordas,podendo ser controlado com px,aqui coloquei 10px*/
+    box-shadow: 5px 5px 15px rgba(37, 59, 102, 0.637); /* Utilizado para adicionar um sombreado */
+    width: 600px; /* Nesse caso é a LARGURA da CAIXA main */
+    padding: 10px; /* Utilizada para definir o espaçamento ao redor de um elemento*/
+    margin: auto; /*deixa a margem no meio sempre*/
+}
+
+h1 {
+    color: #D95323;
+    text-align: center; /*Utilizado para indicar a posição do texto,que no caso foi o h1 *título* */
+    text-shadow: 1px 1px 0px #993b1986; /* Utilizado para colocar um sombreado no testo */
+}
+
+h2 { 
+    color: #bd836f;
+}
+
+p {
+    text-align: justify; /* Esse text-align é utilizado para organizar o texto,deixar alinhado e de melhor leitura*/
+}

@@ -1,0 +1,9 @@
+
+
+body{
+    background-image: linear-gradient(to bottom, #894FC0,  #894FC0, #CD7FA9, #DD396B, #DF8992, #E8BE74);
+    background-attachment: fixed;
+}
+p{
+    color: aliceblue;
+}

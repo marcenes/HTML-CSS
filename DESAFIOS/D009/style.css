@@ -1,0 +1,20 @@
+@charset "UTF-8";  /* vermelho #FA0021 amarelo #FFCB05*/
+
+body{
+    background-image: linear-gradient(95deg , #FA0021 , #FFCB05 );
+}
+
+main{
+    background-color: rgba(88, 88, 59, 0.582);
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px black;
+
+}
+
+h1{
+    color: black;
+    
+}
